@@ -3,6 +3,12 @@
 
 This tool is only a small project that I've decided to take upon myself for learning purposes of json requests and API connections in C#... And also for fun, I mean who doesn't want to talk with their own "AI" assistant? :D
 
+## Prerequisites
+
+  - OpenAI API account
+  - Azure account
+  - Azure Speech service
+
 ## How does it work?
 The way it works is very, very simple:
   -Azure Speech Serivces are used for STT (Speech-To-Text) and TTS (Text-To-Speech) features
