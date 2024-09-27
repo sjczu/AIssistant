@@ -98,13 +98,13 @@ public class SpeechToText
 
     public SpeechToText(string languageKey)
     {
-        var config = SpeechConfig.FromSubscription(apiKey, region);
+        var recognitionConfig = SpeechConfig.FromSubscription(apiKey, region);
         if (languageKey == "EN")
         {
-            config.SpeechRecognitionLanguage = "en-US";
+            recognitionConfig.SpeechRecognitionLanguage = "en-US";
         }
-        else config.SpeechRecognitionLanguage = "pl-PL";
-        recognizer = new SpeechRecognizer(config);
+        else recognitionConfig.SpeechRecognitionLanguage = "pl-PL";
+        recognizer = new SpeechRecognizer(recognitionConfig);
     }   
 	
 	public async Task<string> RecognizeSpeechAsync()
