@@ -11,7 +11,7 @@ This tool is only a small project that I've decided to take upon myself for lear
 
 ## How does it work?
 The way it works is very, very simple:
-  - Azure Speech Serivces are used for STT (Speech-To-Text) and TTS (Text-To-Speech) features
+  - Azure Speech serivce is used for STT (Speech-To-Text) and TTS (Text-To-Speech) features
   - OpenAI Completions API is used for actual talking with GPT models
 
 ## Important variables in the code:
