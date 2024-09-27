@@ -32,6 +32,11 @@ API key for accessing Azure Speech service.
 Before accessing the app you need to create Azure account and then Speech service.
 After setting it up you can access API key under Resource Management -> Keys and Endpoint in the service overview.
 
+### model
+Defines which OpenAI GPT model you'll use for request handling.
+Before trying to use certain model please make sure you do have token quota available for it.
+For full list of available models go to: https://platform.openai.com/docs/models
+
 ### region
 This variable is used to define in which region your service is located in.
 By default it's set to 'germanywestcentral', but you should change it to your own value reflecting proper region in which you've created the Speech service.
